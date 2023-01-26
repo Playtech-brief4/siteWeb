@@ -1,0 +1,46 @@
+@media (min-width:1300px) {
+    .items {
+        width: 2000px;
+        margin-left: 10px;
+    }
+}
+@media (min-width:900px) {
+    .label_item {
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    input.form-control {
+        height: 37px;
+    }
+}
+@media (max-width:900px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+    }
+    .label_item {
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .input_submit{
+        margin-left: -73%;
+        width: 200PX;
+    }
+    .gallery .select{
+        width: 340px;
+    }
+    .items {
+        margin-left: 9px;
+    }
+    .aboutU{
+        
+    }
+}
+@media (max-width:360px){
+    .submit{
+        width: 64px;
+        margin: 0 19%;
+    }
+}
